@@ -30,3 +30,34 @@ Wählen Sie das gewünschte Dateiformat aus (Standardmäßig PNG).
 Beenden der Anwendung:
 
 Schließen Sie das GUI-Fenster, um die Anwendung zu beenden.
+
+
+
+
+Funktion get_zodiac_sign(day, month)
+Diese Funktion berechnet das Sternzeichen basierend auf dem Geburtsdatum.
+
+Monatsnamen-Wörterbuch
+Das Wörterbuch month_names ordnet jedem Monat seine deutsche Bezeichnung zu.
+
+Sternzeichen-Berechnung
+Je nach Kombination von Tag und Monat wird das passende Sternzeichen zurückgegeben.
+
+Ungültiges Datum
+Falls ein ungültiges Datum eingegeben wird, wird eine Fehlermeldung ausgegeben und None zurückgegeben.
+
+Bildauswahl-Funktion select_image()
+Diese Funktion öffnet einen Dateiauswahldialog, um ein Bild zu laden und anzuzeigen.
+
+Funktion zum Anpassen und Zuschneiden von Bildern resize_and_crop_to_800x800(image_array)
+Diese Funktion passt die Größe eines Bildes an und schneidet es auf 800x800 Pixel zu.
+
+Funktion zum Versenden der E-Mail send_email_with_attachment(receiver_email, subject, body, attachment_path)
+Diese Funktion sendet eine E-Mail mit einem Anhang.
+
+Hauptfunktion zum Anzeigen der Ergebnisse show_results()
+Diese Funktion sammelt die Eingabedaten, verarbeitet das Bild, berechnet das Sternzeichen und sendet eine E-Mail.
+
+GUI-Setup
+Die GUI wird mit tkinter erstellt, um die Benutzereingaben zu sammeln und die Ergebnisse anzuzeigen.
+
